@@ -10,16 +10,19 @@
     <title>Odin: Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
 
-    <div id="computer-window">Dummy Text</div>
-    <div id="player-window">
-        <button type="button"><i class="fa-regular fa-hand-back-fist"></i></button>
-        <button type="button"><i class="fa-regular fa-hand-peace"></i></button>
-        <button type="button"><i class="fa-regular fa-hand"></i></button>
+        <div id="computer-window"><i class="computer-icon">Dummy Text</i></div>
+        <div id="player-window">
+            <div id="player-options">
+                <button type="button"><i class="fa-regular fa-hand-back-fist"></i></button>
+                <button type="button"><i class="fa-regular fa-hand-peace"></i></button>
+                <button type="button"><i class="fa-regular fa-hand"></i></button>
+            </div>
+            <button id="start-button" type="button" disabled="true">Play!</button>
+        </div>
     </div>
-
-    <button type="button" disabled="true">Play!</button>
 
     <script src="script.js"></script>
 </body>
